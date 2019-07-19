@@ -7,7 +7,7 @@ enabled: true
 entry_point: greet.sh
 parameters:
   greeting:
-    ype: string
+    type: string
     description: Greeting you want to say to StackStorm (i.e. Hello, Hi, Yo, etc.)
     required: true
     position: 1
