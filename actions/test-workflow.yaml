@@ -1,0 +1,14 @@
+---
+name : test-workflow
+pack : hello_st2
+description : Run a local linux command
+runner_type : orquesta
+entry_point : workflows/test-workflow.yaml
+enabled : true
+parameters : 
+  cmd:
+    required : true
+    type : string
+  timeout : 
+    type : integer
+    default : 60
